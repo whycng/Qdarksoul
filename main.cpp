@@ -1,11 +1,16 @@
-#include "mainwindow.h"
+﻿#include "mainwindow.h"
 
 #include <QApplication>
+#include "testCpp.h"
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    MainWindow w;
-    w.show();
+//    MainWindow w;
+//    w.show();
+
+    //测试
+    testCppMain();
+
     return a.exec();
 }

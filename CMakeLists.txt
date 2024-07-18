@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.5)
+﻿cmake_minimum_required(VERSION 3.5)
 
 project(dksoul VERSION 0.1 LANGUAGES CXX)
 
@@ -15,7 +15,9 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 set(PROJECT_SOURCES
         main.cpp
         mainwindow.cpp
+        testCpp.cpp
         mainwindow.h
+        testCpp.h
         mainwindow.ui
 )
 
